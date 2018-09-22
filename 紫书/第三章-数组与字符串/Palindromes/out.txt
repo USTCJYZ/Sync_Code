@@ -1,0 +1,8 @@
+NOTAPALINDROME -- is is not a palindrome.
+
+ISAPALINILAPASI -- is is a regular palindrome.
+
+2A3MEAS -- is is a mirrored string.
+
+ATOYOTA -- is is a mirrored palindrome.
+
