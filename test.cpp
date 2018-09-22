@@ -6,5 +6,6 @@ int main(){
 	printf("%d\n",count);
 	for(int i=1;i<count;i++)
 		printf("%c",cmd[i]);
+		//this is a test!
 	return 0;
 }
