@@ -1,11 +1,10 @@
-#include <stdio.h>
+#include<cstdlib>
+#include<cstdio>
+#include<cstring>
+#include<ctime>
 int main(){
-	char cmd[100];
-	int count=0;
-	while(scanf("%c",&cmd[++count]) &&cmd[count]!='0');
-	printf("%d\n",count);
-	for(int i=1;i<count;i++)
-		printf("%c",cmd[i]);
-		//this is a test!
+	const char *name[]={"Ç®ÇíÁÕ","Àî³Ìãä","Àîéª","·®ÐÛ·É","Ò¦±ùÐÀ","ÄßÖ¾Ô¶"};
+	srand((unsigned)time(NULL));
+	printf("%s",name[rand()%6]);
 	return 0;
-}
+} 
