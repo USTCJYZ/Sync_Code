@@ -12,7 +12,7 @@ using namespace std;
 class BigNum
 { 
 private: 
-	int a[500];    //可以控制大数的位数 
+	int a[50000];    //可以控制大数的位数 
 	int len;       //大数长度
 public: 
 	BigNum(){ len = 1;memset(a,0,sizeof(a)); }   //构造函数
