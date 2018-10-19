@@ -14,6 +14,7 @@ int main(){
 				if(s[i][j]==' ')
 					bx=i,by=j;
 		while(scanf("%c",&cmd[++count]) &&cmd[count]!='0');
+		getchar();
 		x=bx,y=by;
 		for(int i=1;i<count;i++){
 			switch(cmd[i]){
